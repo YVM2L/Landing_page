@@ -101,3 +101,14 @@ header {
     gap: 20px;
     flex-wrap: wrap;
 }
+
+.info-box {
+    width: 200px;
+    height: 200px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
