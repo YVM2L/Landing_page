@@ -83,3 +83,21 @@ header {
 .hero .image-placeholder {
     flex-shrink: 0;
 }
+
+.info-section {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.info-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
