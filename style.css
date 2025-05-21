@@ -34,3 +34,38 @@ header {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 500px;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #1e60d9;
+}
+
