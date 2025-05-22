@@ -112,3 +112,11 @@ header {
     border-radius: 10px;
     padding: 10px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
