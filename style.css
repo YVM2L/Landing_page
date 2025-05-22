@@ -73,6 +73,10 @@ header {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 150px;
+    height: 40px;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
 .hero button:hover {
