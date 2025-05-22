@@ -117,6 +117,21 @@ header {
     background-color: #e5e7eb;
     padding: 60px;
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     font-style: italic;
+    color: #1F2937;
+}
+
+blockquote {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+cite {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: black;
 }
