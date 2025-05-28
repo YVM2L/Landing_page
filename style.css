@@ -40,7 +40,7 @@ header {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px;
     background-color: #1f2937;
     color: white;
@@ -83,16 +83,13 @@ header {
     background-color: #1e60d9;
 }
 
-.image-placeholder {
-    width: 400px;
-    height: 250px;
-    background-color: #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    color: #333;
+
+.image-placeholder img {
+    width: 350px; 
+    height: auto; 
+    max-width: 100%; 
 }
+
 
 .hero .image-placeholder {
     flex-shrink: 0;
@@ -177,11 +174,11 @@ cite {
 }
 
 .cta button {
-    background-color: #e5e7eb;
-    color: black;
+    background-color: #3882f6;
+    color: white;
     font-size: 18px;
     padding: 10px 20px;
-    border: none;
+    border:2px solid white;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
@@ -191,8 +188,7 @@ cite {
 }
 
 .cta button:hover {
-    background-color: white;
-    color: #3882f6;
+    background-color: #1e60d9;
 }
 
 footer {
